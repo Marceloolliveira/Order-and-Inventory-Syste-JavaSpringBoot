@@ -2,16 +2,25 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Java-17-007396?style=for-the-badge&logo=java" />
-  <img src="https://img.shields.io/badge/Spring_Boot-2.7-brightgreen?style=for-the-badge&logo=springboot" />
+  <img src="https://img.shields.io/badge/Spring_Boot-2.7-6DB33F?style=for-the-badge&logo=springboot" />
   <img src="https://img.shields.io/badge/PostgreSQL-15-336791?style=for-the-badge&logo=postgresql" />
 </div>
 
-<hr style="border: 2px solid #2ecc40; margin: 24px 0;" />
+<!-- Linha verde e animação -->
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
+<div align="center">
+  <img src="https://media.giphy.com/media/JfHCkKfKLELeU/giphy.gif" width="80" alt="Java logo animada" />
+</div>
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
-<p><strong>Projeto voltado para o aprendizado prático de arquitetura de software,<br>
+<p align="center"><strong>Projeto voltado para o aprendizado prático de arquitetura de software,<br>
 sem uso de código pronto ou IA, focando em boas práticas.</strong></p>
 
-<hr style="border: 2px solid #2ecc40; margin: 24px 0;" />
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
+<div align="center">
+  <img src="https://media.giphy.com/media/SSvR3YjfltEILbKoNM/giphy.gif" width="80" alt="Spring Boot logo animada" />
+</div>
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
 <h2>🎯 Arquitetura</h2>
 <pre style="background:#f5f5f5; padding:14px; border-radius:6px;">
@@ -27,7 +36,11 @@ src/main/resources
     └── application.yml
 </pre>
 
-<hr style="border: 2px solid #2ecc40; margin: 24px 0;" />
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
+<div align="center">
+  <img src="https://media.giphy.com/media/l0Jm5r9FmzZhgPGka/giphy.gif" width="80" alt="Spring Leaf gif" />
+</div>
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
 <h2>🚀 Tecnologias</h2>
 <ul>
@@ -39,7 +52,11 @@ src/main/resources
   <li><strong>Docker (opcional)</strong> 🐳</li>
 </ul>
 
-<hr style="border: 2px solid #2ecc40; margin: 24px 0;" />
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
+<div align="center">
+  <img src="https://media.giphy.com/media/U3lnQM6IorlWBTJaVz/giphy.gif" width="80" alt="db gif" />
+</div>
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
 <h2>📝 Entidades Principais</h2>
 <ul>
@@ -49,7 +66,11 @@ src/main/resources
   <li><strong>ItemPedido:</strong> ligação entre Pedido e Produto (quantidade e valor)</li>
 </ul>
 
-<hr style="border: 2px solid #2ecc40; margin: 24px 0;" />
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
+<div align="center">
+  <img src="https://media.giphy.com/media/o5oLImoQgGsKY/giphy.gif" width="80" alt="Doc gif" />
+</div>
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
 <h2>📋 Regras de Negócio</h2>
 <ul>
@@ -59,7 +80,11 @@ src/main/resources
   <li>Só permite envio de pedidos pagos</li>
 </ul>
 
-<hr style="border: 2px solid #2ecc40; margin: 24px 0;" />
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
+<div align="center">
+  <img src="https://media.giphy.com/media/TlK63EjXQ9Io9WUkfG/giphy.gif" width="80" alt="Checklist gif" />
+</div>
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
 <h2>🔨 Passos para Implementação</h2>
 <ol>
@@ -72,10 +97,14 @@ src/main/resources
   <li>Adicione autenticação JWT apenas ao final</li>
 </ol>
 
-<hr style="border: 2px solid #2ecc40; margin: 24px 0;" />
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
+<div align="center">
+  <img src="https://media.giphy.com/media/3oEjHBnlc6wB7CWouY/giphy.gif" width="80" alt="Security lock gif" />
+</div>
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
 <h2>🔒 Segurança</h2>
 <p>Autenticação JWT e senhas com BCrypt <br>
 (<em>Só após validação do sistema estar funcional</em>).</p>
 
-<hr style="border: 2px solid #2ecc40; margin: 24px 0;" />
+<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
