@@ -6,20 +6,11 @@
   <img src="https://img.shields.io/badge/PostgreSQL-15-336791?style=for-the-badge&logo=postgresql" />
 </div>
 
-<!-- Linha verde e animação -->
-<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
-<div align="center">
-  <img src="https://media.giphy.com/media/JfHCkKfKLELeU/giphy.gif" width="80" alt="Java logo animada" />
-</div>
 <hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
 <p align="center"><strong>Projeto voltado para o aprendizado prático de arquitetura de software,<br>
 sem uso de código pronto ou IA, focando em boas práticas.</strong></p>
 
-<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
-<div align="center">
-  <img src="https://media.giphy.com/media/SSvR3YjfltEILbKoNM/giphy.gif" width="80" alt="Spring Boot logo animada" />
-</div>
 <hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
 <h2>🎯 Arquitetura</h2>
@@ -37,10 +28,6 @@ src/main/resources
 </pre>
 
 <hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
-<div align="center">
-  <img src="https://media.giphy.com/media/l0Jm5r9FmzZhgPGka/giphy.gif" width="80" alt="Spring Leaf gif" />
-</div>
-<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
 <h2>🚀 Tecnologias</h2>
 <ul>
@@ -53,10 +40,6 @@ src/main/resources
 </ul>
 
 <hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
-<div align="center">
-  <img src="https://media.giphy.com/media/U3lnQM6IorlWBTJaVz/giphy.gif" width="80" alt="db gif" />
-</div>
-<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
 <h2>📝 Entidades Principais</h2>
 <ul>
@@ -67,10 +50,6 @@ src/main/resources
 </ul>
 
 <hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
-<div align="center">
-  <img src="https://media.giphy.com/media/o5oLImoQgGsKY/giphy.gif" width="80" alt="Doc gif" />
-</div>
-<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
 <h2>📋 Regras de Negócio</h2>
 <ul>
@@ -80,10 +59,6 @@ src/main/resources
   <li>Só permite envio de pedidos pagos</li>
 </ul>
 
-<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
-<div align="center">
-  <img src="https://media.giphy.com/media/TlK63EjXQ9Io9WUkfG/giphy.gif" width="80" alt="Checklist gif" />
-</div>
 <hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
 <h2>🔨 Passos para Implementação</h2>
@@ -97,10 +72,6 @@ src/main/resources
   <li>Adicione autenticação JWT apenas ao final</li>
 </ol>
 
-<hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
-<div align="center">
-  <img src="https://media.giphy.com/media/3oEjHBnlc6wB7CWouY/giphy.gif" width="80" alt="Security lock gif" />
-</div>
 <hr style="border: 2px solid #6DB33F; margin: 24px 0;" />
 
 <h2>🔒 Segurança</h2>
