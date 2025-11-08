@@ -1,74 +1,60 @@
-Gerenciamento de Pedidos e Estoque
-Este repositório implementa um sistema completo para controle de pedidos e estoque, projetado para promover autonomia e entendimento de arquitetura sem dependência de automação ou IA.
+// Sistema desenvolvido em Java 17 + Spring Boot
+<p align="center"> <img src="https://img.shields.io/badge/Java-17-007396?style=for-the-badge&logo=java" /> <img src="https://img.shields.io/badge/Spring_Boot-2.7-brightgreen?style=for-the-badge&logo=springboot" /> <img src="https://img.shields.io/badge/PostgreSQL-15-336791?style=for-the-badge&logo=postgresql" /> </p>
 
-Arquitetura
-O projeto segue separação de responsabilidades, garantindo escalabilidade e facilidade de manutenção:
+src/main/java/com.seuprojeto
+    ├── config
+    ├── controller
+    ├── service
+    ├── repository
+    ├── domain (ou model)
+    ├── dto
+    └── exception
+src/main/resources
+    └── application.yml
 
-config
+🚀 Tecnologias
+☕ Java 17
 
-controller
+🥗 Spring Boot, Spring Web, Spring Data JPA, Spring Security (JWT/Bcrypt)
 
-service
+🗄️ Hibernate, PostgreSQL
 
-repository
+🛠️ Maven
 
-domain/model
+🐳 Docker (opcional)
 
-dto
-
-exception
-
-Tecnologias
-Java 17
-
-Spring Boot
-
-Spring Web
-
-Spring Data JPA
-
-Spring Security (JWT/bCrypt)
-
-Hibernate
-
-PostgreSQL
-
-Maven
-
-Docker (opcional)
-
-Entidades Principais
-Produto: item disponível para venda
+📝 Entidades Principais
+Produto: item à venda
 
 Cliente: comprador
 
-Pedido: registro da transação
+Pedido: registro da compra
 
-ItemPedido: relaciona Pedido e Produto, registrando quantidade e valor
+ItemPedido: ligação entre Pedido e Produto (quantidade e valor)
 
-Regras de Negócio
-Estoque não pode ser negativo
+📋 Regras de Negócio
+Impede estoque negativo
 
-Reserva de estoque ao criar pedido
+Reserva estoque ao criar pedido
 
-Reposição de estoque ao cancelar pedido
+Devolve estoque ao cancelar pedido
 
-Somente pedidos pagos podem ser enviados
+Só permite envio de pedidos pagos
 
-Passos de Implementação
+🔨 Passos para Implementação
 Configure projeto e banco
 
-Implemente Produto e seu CRUD
+Implemente Produto (CRUD)
 
-Use DTOs para ocultar modelo
+Use DTOs
 
 Implemente Cliente
 
-Implemente Pedido e ItemPedido com relacionamentos
+Implemente Pedido e ItemPedido
 
-Adicione regras na camada de serviço
+Aplique regras de negócio no Service
 
-Implemente autenticação JWT após o sistema estar funcional
+Adicione autenticação JWT apenas ao final
 
-Segurança
-Autenticação JWT e senhas seguras (BCrypt) são aplicadas após validação funcional do sistema.
+🔒 Segurança
+Autenticação JWT e senhas com BCrypt (após validação do sistema).
